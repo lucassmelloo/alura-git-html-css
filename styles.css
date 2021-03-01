@@ -1,0 +1,16 @@
+
+body {
+    background: #cccccc;
+}
+
+.header {
+    text-align: center; 
+}
+
+.barbermission {
+   font-size: 20px;
+}
+
+.barbermission strong {
+    color: blue;
+ }

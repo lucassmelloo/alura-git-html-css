@@ -1,21 +1,56 @@
 
 body {
-    background: #cccccc;
-    text-align: center;
+    
 }
 
 .banner {
     width: 100%;
 }
 
-.header {
-    text-align: center; 
+.principal {
+    background: #cccccc;    
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 .barbermission {
    font-size: 20px;
+   
 }
 
 .barbermission strong {
     color: blue;
  }
+
+ h2 {
+     text-align: center;
+ }
+
+ .alingitens {
+     align-items: baseline;
+ }
+
+ ul {
+     display: inline-block;
+     vertical-align: top;
+
+     width: 40%;
+
+
+}
+
+ .imagembeneficios {
+    width: 50%;
+
+     display: inline-block;
+     
+ }
+
+

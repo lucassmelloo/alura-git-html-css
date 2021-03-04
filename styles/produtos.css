@@ -1,0 +1,18 @@
+header {
+    background: #dddddd;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}

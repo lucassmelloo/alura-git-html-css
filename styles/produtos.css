@@ -29,6 +29,12 @@ header {
 
 }
 
+.navbar a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -43,6 +49,27 @@ header {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px ;
+    border-style:  solid;
+    /*
+    border: [width] [style] [color]
+    border: 2px solid #00000;
+    */
+    border-radius: 5px;
+    
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos li:active{
+    border-color: #088c19;
 }
 
 .produtos h2 {
@@ -59,4 +86,10 @@ header {
     font-size: 22px;
     font-weight: bold;
     margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    background: grey;
+    padding: 40px 0;
 }
